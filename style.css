@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c5c5c5;
+    box-shadow: 0 5px 10px #c5c5c5;
+}
+
+#logo{
+    height: 70%;
+}
+
+#menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    list-style-type: none;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Gill Sans", sans-serif;
+    transition: all 0.5s ease;
+}
+
+#menu li:hover{
+    transform: scale(1.05);
+}
+
+#menu li a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #5a5a5a;
+    transition: all 0.5s ease;
+}
+
+#menu li a:hover {
+    color: #000000;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+main h1{
+    font-family: "Gill Sans", sans-serif;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+
+thead th {
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+}
+
+
+tbody td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+tbody tr {
+   transition: all ease 0.5s;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+footer{
+    border-top: 1px solid #c5c5c5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contacts{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.contacts li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts li svg{
+    margin-right: 10px;
+}
